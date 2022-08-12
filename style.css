@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+  background-color: #f0f0f0;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-content {
+  background-color: hsl(31, 77%, 52%);
+  width: 25%;
+  height: 60%;
+  padding: 10px;
+}
+.left-content h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-family: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+}
+.left-content p {
+  color: #ffffff;
+  font-family: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap");
+}
+.left-content button {
+  margin: 60px 0;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  background-color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+  font-weight: 700;
+  color: hsl(31, 77%, 52%);
+}
+.left-content button:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.middle-content {
+  background-color: hsl(184, 100%, 22%);
+  width: 25%;
+  height: 60%;
+  padding: 10px;
+}
+.middle-content h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-family: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+}
+.middle-content p {
+  color: #ffffff;
+  font-family: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap");
+}
+
+.middle-content button {
+  margin: 60px 0;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  background-color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+  font-weight: 700;
+  color: hsl(184, 100%, 22%);
+}
+
+.middle-content button:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.right-content {
+  background-color: hsl(179, 100%, 13%);
+  width: 25%;
+  height: 60%;
+  padding: 10px;
+}
+.right-content h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 20px 0;
+  font-family: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+}
+.right-content p {
+  color: #ffffff;
+  font-family: url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400&display=swap");
+}
+.right-content button {
+  margin: 60px 0;
+  padding: 15px 40px;
+  border: 0;
+  border-radius: 30px;
+  outline: none;
+  background-color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap");
+  font-weight: 700;
+  color: hsl(179, 100%, 13%);
+}
+.right-content button:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
